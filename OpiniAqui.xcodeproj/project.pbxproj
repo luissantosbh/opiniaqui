@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		608EE9C572184E8539BF252F /* Pods_OpiniAqui.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4CA0D11C5E5C1C2BDEBAA9 /* Pods_OpiniAqui.framework */; };
+		916CCFE1209B76C800957B99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916CCFE0209B76C800957B99 /* AppDelegate.swift */; };
+		916CCFE3209B76C800957B99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916CCFE2209B76C800957B99 /* ViewController.swift */; };
+		916CCFE6209B76C800957B99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 916CCFE4209B76C800957B99 /* Main.storyboard */; };
+		916CCFE8209B76C800957B99 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 916CCFE7209B76C800957B99 /* Images.xcassets */; };
+		916CCFEB209B76C800957B99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 916CCFE9209B76C800957B99 /* LaunchScreen.storyboard */; };
+		916CCFF6209B8D5F00957B99 /* SimboloOpiniAquiPadrao.png in Resources */ = {isa = PBXBuildFile; fileRef = 916CCFF5209B8D5F00957B99 /* SimboloOpiniAquiPadrao.png */; };
+		916CCFF8209BA1B700957B99 /* EntrarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916CCFF7209BA1B700957B99 /* EntrarViewController.swift */; };
+		916CCFFA209BA1DF00957B99 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916CCFF9209BA1DF00957B99 /* CadastroViewController.swift */; };
+		916CD002209CF0C600957B99 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 916CD001209CF0C600957B99 /* GoogleService-Info.plist */; };
+		916CD02220A37AD000957B99 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 916CD02120A37AD000957B99 /* AdSupport.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		916CCFDD209B76C800957B99 /* OpiniAqui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpiniAqui.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		916CCFE0209B76C800957B99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		916CCFE2209B76C800957B99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		916CCFE5209B76C800957B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		916CCFE7209B76C800957B99 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		916CCFEA209B76C800957B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		916CCFEC209B76C800957B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		916CCFF5209B8D5F00957B99 /* SimboloOpiniAquiPadrao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SimboloOpiniAquiPadrao.png; sourceTree = "<group>"; };
+		916CCFF7209BA1B700957B99 /* EntrarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntrarViewController.swift; sourceTree = "<group>"; };
+		916CCFF9209BA1DF00957B99 /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		916CD001209CF0C600957B99 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		916CD02120A37AD000957B99 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		C080785907F8CDF5FC26F9CC /* Pods-OpiniAqui.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpiniAqui.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpiniAqui/Pods-OpiniAqui.release.xcconfig"; sourceTree = "<group>"; };
+		C3C6BCAD5E5ECA2CB4237362 /* Pods-OpiniAqui.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpiniAqui.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpiniAqui/Pods-OpiniAqui.debug.xcconfig"; sourceTree = "<group>"; };
+		ED4CA0D11C5E5C1C2BDEBAA9 /* Pods_OpiniAqui.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpiniAqui.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		916CCFDA209B76C800957B99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				916CD02220A37AD000957B99 /* AdSupport.framework in Frameworks */,
+				608EE9C572184E8539BF252F /* Pods_OpiniAqui.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		916CCFD4209B76C800957B99 = {
+			isa = PBXGroup;
+			children = (
+				916CCFDF209B76C800957B99 /* OpiniAqui */,
+				916CCFDE209B76C800957B99 /* Products */,
+				DE49CF29F052DABB4B95B1A0 /* Pods */,
+				BAC4DEC55DC04236CAA02D86 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		916CCFDE209B76C800957B99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				916CCFDD209B76C800957B99 /* OpiniAqui.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		916CCFDF209B76C800957B99 /* OpiniAqui */ = {
+			isa = PBXGroup;
+			children = (
+				916CCFE0209B76C800957B99 /* AppDelegate.swift */,
+				916CCFE2209B76C800957B99 /* ViewController.swift */,
+				916CCFF7209BA1B700957B99 /* EntrarViewController.swift */,
+				916CCFF9209BA1DF00957B99 /* CadastroViewController.swift */,
+				916CCFE4209B76C800957B99 /* Main.storyboard */,
+				916CCFE7209B76C800957B99 /* Images.xcassets */,
+				916CCFE9209B76C800957B99 /* LaunchScreen.storyboard */,
+				916CCFF5209B8D5F00957B99 /* SimboloOpiniAquiPadrao.png */,
+				916CCFEC209B76C800957B99 /* Info.plist */,
+				916CD001209CF0C600957B99 /* GoogleService-Info.plist */,
+			);
+			path = OpiniAqui;
+			sourceTree = "<group>";
+		};
+		BAC4DEC55DC04236CAA02D86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				916CD02120A37AD000957B99 /* AdSupport.framework */,
+				ED4CA0D11C5E5C1C2BDEBAA9 /* Pods_OpiniAqui.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE49CF29F052DABB4B95B1A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3C6BCAD5E5ECA2CB4237362 /* Pods-OpiniAqui.debug.xcconfig */,
+				C080785907F8CDF5FC26F9CC /* Pods-OpiniAqui.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		916CCFDC209B76C800957B99 /* OpiniAqui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 916CCFEF209B76C800957B99 /* Build configuration list for PBXNativeTarget "OpiniAqui" */;
+			buildPhases = (
+				437E0D09558B34D73A82D6F3 /* [CP] Check Pods Manifest.lock */,
+				916CCFD9209B76C800957B99 /* Sources */,
+				916CCFDA209B76C800957B99 /* Frameworks */,
+				916CCFDB209B76C800957B99 /* Resources */,
+				09989250E9D887DF2DEC4CB3 /* [CP] Embed Pods Frameworks */,
+				CF49B05FA89BF39126810664 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpiniAqui;
+			productName = OpiniAqui;
+			productReference = 916CCFDD209B76C800957B99 /* OpiniAqui.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		916CCFD5209B76C800957B99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Luís Antônio de Oliveira Santos";
+				TargetAttributes = {
+					916CCFDC209B76C800957B99 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 916CCFD8209B76C800957B99 /* Build configuration list for PBXProject "OpiniAqui" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 916CCFD4209B76C800957B99;
+			productRefGroup = 916CCFDE209B76C800957B99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				916CCFDC209B76C800957B99 /* OpiniAqui */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		916CCFDB209B76C800957B99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				916CCFF6209B8D5F00957B99 /* SimboloOpiniAquiPadrao.png in Resources */,
+				916CCFEB209B76C800957B99 /* LaunchScreen.storyboard in Resources */,
+				916CCFE8209B76C800957B99 /* Images.xcassets in Resources */,
+				916CD002209CF0C600957B99 /* GoogleService-Info.plist in Resources */,
+				916CCFE6209B76C800957B99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09989250E9D887DF2DEC4CB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpiniAqui/Pods-OpiniAqui-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		437E0D09558B34D73A82D6F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF49B05FA89BF39126810664 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpiniAqui/Pods-OpiniAqui-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		916CCFD9209B76C800957B99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				916CCFE3209B76C800957B99 /* ViewController.swift in Sources */,
+				916CCFE1209B76C800957B99 /* AppDelegate.swift in Sources */,
+				916CCFF8209BA1B700957B99 /* EntrarViewController.swift in Sources */,
+				916CCFFA209BA1DF00957B99 /* CadastroViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		916CCFE4209B76C800957B99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				916CCFE5209B76C800957B99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		916CCFE9209B76C800957B99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				916CCFEA209B76C800957B99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		916CCFED209B76C800957B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		916CCFEE209B76C800957B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		916CCFF0209B76C800957B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3C6BCAD5E5ECA2CB4237362 /* Pods-OpiniAqui.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JRK98V44C4;
+				INFOPLIST_FILE = OpiniAqui/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.OpiniAqui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		916CCFF1209B76C800957B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C080785907F8CDF5FC26F9CC /* Pods-OpiniAqui.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JRK98V44C4;
+				INFOPLIST_FILE = OpiniAqui/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.OpiniAqui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		916CCFD8209B76C800957B99 /* Build configuration list for PBXProject "OpiniAqui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916CCFED209B76C800957B99 /* Debug */,
+				916CCFEE209B76C800957B99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		916CCFEF209B76C800957B99 /* Build configuration list for PBXNativeTarget "OpiniAqui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916CCFF0209B76C800957B99 /* Debug */,
+				916CCFF1209B76C800957B99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 916CCFD5209B76C800957B99 /* Project object */;
+}
