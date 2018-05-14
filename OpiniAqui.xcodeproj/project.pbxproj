@@ -18,6 +18,8 @@
 		916CCFFA209BA1DF00957B99 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916CCFF9209BA1DF00957B99 /* CadastroViewController.swift */; };
 		916CD002209CF0C600957B99 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 916CD001209CF0C600957B99 /* GoogleService-Info.plist */; };
 		916CD02220A37AD000957B99 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 916CD02120A37AD000957B99 /* AdSupport.framework */; };
+		91CCD67020A9BEA9007D7D66 /* padrao.png in Resources */ = {isa = PBXBuildFile; fileRef = 91CCD66F20A9BEA8007D7D66 /* padrao.png */; };
+		91CCD67220A9C31E007D7D66 /* FotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CCD67120A9C31E007D7D66 /* FotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		916CCFF9209BA1DF00957B99 /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
 		916CD001209CF0C600957B99 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		916CD02120A37AD000957B99 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		91CCD66F20A9BEA8007D7D66 /* padrao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = padrao.png; sourceTree = "<group>"; };
+		91CCD67120A9C31E007D7D66 /* FotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotoViewController.swift; sourceTree = "<group>"; };
 		C080785907F8CDF5FC26F9CC /* Pods-OpiniAqui.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpiniAqui.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpiniAqui/Pods-OpiniAqui.release.xcconfig"; sourceTree = "<group>"; };
 		C3C6BCAD5E5ECA2CB4237362 /* Pods-OpiniAqui.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpiniAqui.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpiniAqui/Pods-OpiniAqui.debug.xcconfig"; sourceTree = "<group>"; };
 		ED4CA0D11C5E5C1C2BDEBAA9 /* Pods_OpiniAqui.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpiniAqui.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,8 +80,10 @@
 				916CCFE2209B76C800957B99 /* ViewController.swift */,
 				916CCFF7209BA1B700957B99 /* EntrarViewController.swift */,
 				916CCFF9209BA1DF00957B99 /* CadastroViewController.swift */,
+				91CCD67120A9C31E007D7D66 /* FotoViewController.swift */,
 				916CCFE4209B76C800957B99 /* Main.storyboard */,
 				916CCFE7209B76C800957B99 /* Images.xcassets */,
+				91CCD66F20A9BEA8007D7D66 /* padrao.png */,
 				916CCFE9209B76C800957B99 /* LaunchScreen.storyboard */,
 				916CCFF5209B8D5F00957B99 /* SimboloOpiniAquiPadrao.png */,
 				916CCFEC209B76C800957B99 /* Info.plist */,
@@ -117,6 +123,7 @@
 				916CCFDB209B76C800957B99 /* Resources */,
 				09989250E9D887DF2DEC4CB3 /* [CP] Embed Pods Frameworks */,
 				CF49B05FA89BF39126810664 /* [CP] Copy Pods Resources */,
+				9156660620AA0A8C000C3106 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -170,6 +177,7 @@
 				916CCFEB209B76C800957B99 /* LaunchScreen.storyboard in Resources */,
 				916CCFE8209B76C800957B99 /* Images.xcassets in Resources */,
 				916CD002209CF0C600957B99 /* GoogleService-Info.plist in Resources */,
+				91CCD67020A9BEA9007D7D66 /* padrao.png in Resources */,
 				916CCFE6209B76C800957B99 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,7 +202,7 @@
 		};
 		437E0D09558B34D73A82D6F3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
@@ -205,11 +213,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
+		};
+		9156660620AA0A8C000C3106 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "";
 		};
 		CF49B05FA89BF39126810664 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
@@ -230,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				916CCFE3209B76C800957B99 /* ViewController.swift in Sources */,
+				91CCD67220A9C31E007D7D66 /* FotoViewController.swift in Sources */,
 				916CCFE1209B76C800957B99 /* AppDelegate.swift in Sources */,
 				916CCFF8209BA1B700957B99 /* EntrarViewController.swift in Sources */,
 				916CCFFA209BA1DF00957B99 /* CadastroViewController.swift in Sources */,
@@ -370,12 +391,14 @@
 			baseConfigurationReference = C3C6BCAD5E5ECA2CB4237362 /* Pods-OpiniAqui.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JRK98V44C4;
 				INFOPLIST_FILE = OpiniAqui/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.OpiniAqui;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -386,12 +409,14 @@
 			baseConfigurationReference = C080785907F8CDF5FC26F9CC /* Pods-OpiniAqui.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JRK98V44C4;
 				INFOPLIST_FILE = OpiniAqui/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.OpiniAqui;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

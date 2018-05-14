@@ -15,13 +15,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let autenticacao = Auth.auth()
+/*
+        //deslogar
         
         do {
          try autenticacao.signOut()
          } catch {
          print("Erro ao deslogar usuario")
          }
- 
+*/
         autenticacao.addStateDidChangeListener { (autenticacao, usuario) in
             
             if let usuarioLogado = usuario {

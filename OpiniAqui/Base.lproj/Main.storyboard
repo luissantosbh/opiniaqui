@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eDQ-pA-HZ8">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,14 +15,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" userLabel="Opini Aqui" customClass="ViewController" customModule="OpiniAqui" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EOk-E2-olU">
-                                <rect key="frame" x="0.0" y="64" width="375" height="463"/>
+                                <rect key="frame" x="0.0" y="88" width="375" height="550"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SimboloOpiniAquiPadrao.png" translatesAutoresizingMaskIntoConstraints="NO" id="SZo-iu-ABo">
-                                        <rect key="frame" x="67" y="0.0" width="240" height="463"/>
+                                        <rect key="frame" x="67" y="0.0" width="240" height="550"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.29019607843137252" green="0.56862745098039214" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -34,7 +34,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jhH-Ki-mDE">
-                                <rect key="frame" x="0.0" y="527" width="375" height="69"/>
+                                <rect key="frame" x="0.0" y="638" width="375" height="69"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <state key="normal" title="Entrar">
@@ -45,7 +45,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GXd-fw-jhi">
-                                <rect key="frame" x="0.0" y="594" width="375" height="73"/>
+                                <rect key="frame" x="0.0" y="705" width="375" height="73"/>
                                 <color key="backgroundColor" red="1" green="0.25882352939999997" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <state key="normal" title="Criar conta">
@@ -79,7 +79,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Home" id="NfG-EQ-71X" userLabel="Opini Aqui"/>
                     <connections>
-                        <segue destination="Jd3-PO-XZG" kind="presentation" identifier="loginAutomaticoSegue" id="C6N-GE-2ru"/>
+                        <segue destination="wly-Sj-10c" kind="presentation" identifier="loginAutomaticoSegue" id="C6N-GE-2ru"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -91,44 +91,44 @@
             <objects>
                 <viewController title="Criar conta" id="zfq-86-uLT" userLabel="Criar Conta" customClass="CadastroViewController" customModule="OpiniAqui" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="in1-Re-oeB">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E-mail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6mK-R3-5eU" userLabel="E-mailLabel">
-                                <rect key="frame" x="16" y="72" width="49" height="21"/>
+                                <rect key="frame" x="16" y="96" width="49" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cIC-67-sCo" userLabel="E-mailTF">
-                                <rect key="frame" x="16" y="101" width="343" height="30"/>
+                                <rect key="frame" x="16" y="125" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Senha" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HnB-4W-6UG" userLabel="SenhaLabel">
-                                <rect key="frame" x="16" y="147" width="48" height="21"/>
+                                <rect key="frame" x="16" y="171" width="48" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="99e-Gd-mbT" userLabel="SenhaTF">
-                                <rect key="frame" x="16" y="176" width="343" height="30"/>
+                                <rect key="frame" x="16" y="200" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confirmar Senha" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iYu-nt-FlH" userLabel="SenhaLabel">
-                                <rect key="frame" x="16" y="214" width="129" height="21"/>
+                                <rect key="frame" x="16" y="238" width="129" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bVY-u2-Juq" userLabel="SenhaTF">
-                                <rect key="frame" x="16" y="243" width="343" height="30"/>
+                                <rect key="frame" x="16" y="267" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQL-p7-5PV" userLabel="Criar conta">
-                                <rect key="frame" x="100" y="291" width="175" height="30"/>
+                                <rect key="frame" x="100" y="315" width="175" height="30"/>
                                 <color key="backgroundColor" red="0.2901960784" green="0.56862745100000001" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Criar Conta">
@@ -169,69 +169,117 @@
                         <outlet property="email" destination="cIC-67-sCo" id="efQ-cp-4oG"/>
                         <outlet property="senha" destination="99e-Gd-mbT" id="nvg-Ti-Yjd"/>
                         <outlet property="senhaConfirmacao" destination="bVY-u2-Juq" id="Zot-Lo-1Yk"/>
-                        <segue destination="Jd3-PO-XZG" kind="presentation" identifier="cadastroLoginSegue" id="bDF-My-axU"/>
+                        <segue destination="wly-Sj-10c" kind="presentation" identifier="cadastroLoginSegue" id="bDF-My-axU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TBV-f9-IXf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1543" y="359"/>
         </scene>
-        <!--Login Automatico Segue-->
+        <!--Foto-->
         <scene sceneID="fD3-yF-AIM">
             <objects>
-                <viewController id="Jd3-PO-XZG" customClass="loginAutomaticoSegue" sceneMemberID="viewController">
+                <viewController id="Jd3-PO-XZG" customClass="FotoViewController" customModule="OpiniAqui" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="V2f-ht-Fig">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tela Principal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gF9-vD-PYQ">
-                                <rect key="frame" x="136" y="265" width="131" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="padrao.png" translatesAutoresizingMaskIntoConstraints="NO" id="0mL-Bj-4fI">
+                                <rect key="frame" x="67" y="138" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="HNa-r1-q85"/>
+                                    <constraint firstAttribute="width" constant="240" id="Z7D-k0-4Qo"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Yqz-TT-2F0" userLabel="nomeTF">
+                                <rect key="frame" x="67" y="311" width="240" height="30"/>
                                 <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="namePhonePad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="crV-cM-p3K">
+                                <rect key="frame" x="100" y="365" width="175" height="30"/>
+                                <color key="backgroundColor" red="0.2901960784" green="0.56862745100000001" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="175" id="WgF-z3-bpq"/>
+                                    <constraint firstAttribute="height" constant="30" id="pbj-cw-Uxn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Enviar foto">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="criarConta:" destination="zfq-86-uLT" eventType="touchUpInside" id="1jA-Bq-MJ9"/>
+                                    <action selector="enviarFoto:" destination="Jd3-PO-XZG" eventType="touchUpInside" id="iYF-VP-81x"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.83914172649999996" green="0.83926302190000002" blue="0.83911520240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Yqz-TT-2F0" firstAttribute="top" secondItem="0mL-Bj-4fI" secondAttribute="bottom" constant="45" id="CAE-sZ-XHo"/>
+                            <constraint firstItem="crV-cM-p3K" firstAttribute="centerX" secondItem="Yqz-TT-2F0" secondAttribute="centerX" id="HhD-Vr-WP8"/>
+                            <constraint firstItem="crV-cM-p3K" firstAttribute="top" secondItem="Yqz-TT-2F0" secondAttribute="bottom" constant="24" id="N7N-45-ztq"/>
+                            <constraint firstItem="Yqz-TT-2F0" firstAttribute="centerX" secondItem="0mL-Bj-4fI" secondAttribute="centerX" id="NPX-od-pRx"/>
+                            <constraint firstItem="Yqz-TT-2F0" firstAttribute="width" secondItem="0mL-Bj-4fI" secondAttribute="width" id="UGo-bG-E1N"/>
+                            <constraint firstItem="0mL-Bj-4fI" firstAttribute="centerX" secondItem="V2f-ht-Fig" secondAttribute="centerX" id="Ww9-GO-pMR"/>
+                            <constraint firstItem="0mL-Bj-4fI" firstAttribute="top" secondItem="cme-mS-Mmf" secondAttribute="top" constant="50" id="kEc-Ol-QJG"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="cme-mS-Mmf"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Foto" id="4yc-Pm-qrJ">
+                        <barButtonItem key="leftBarButtonItem" title="Sair" id="EGK-lu-Ki2" userLabel="Sair">
+                            <connections>
+                                <action selector="sair:" destination="Jd3-PO-XZG" id="mSk-nB-GAu"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="camera" id="IVJ-wa-8nF">
+                            <connections>
+                                <action selector="selecionarFoto:" destination="Jd3-PO-XZG" id="YMZ-lJ-SLD"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="botaoEnviarFoto" destination="crV-cM-p3K" id="iJ9-9U-IMa"/>
+                        <outlet property="fotoSelecionada" destination="0mL-Bj-4fI" id="rwx-R9-v6f"/>
+                        <outlet property="nomeSelecionado" destination="Yqz-TT-2F0" id="xYa-lr-zor"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dce-KR-MUT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2829.5999999999999" y="-36.431784107946029"/>
+            <point key="canvasLocation" x="3542" y="-37"/>
         </scene>
         <!--Entrar-->
         <scene sceneID="TXM-KT-2jl">
             <objects>
                 <viewController title="Login" id="6YV-KD-p5p" userLabel="Entrar" customClass="EntrarViewController" customModule="OpiniAqui" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tUd-rg-B2q">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E-mail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xdY-ex-EsJ" userLabel="E-mailLabel">
-                                <rect key="frame" x="16" y="72" width="49" height="21"/>
+                                <rect key="frame" x="16" y="96" width="49" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BhF-4c-5J9" userLabel="E-mailTF">
-                                <rect key="frame" x="16" y="101" width="343" height="30"/>
+                                <rect key="frame" x="16" y="125" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Senha" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Coj-KT-Y9P" userLabel="SenhaLabel">
-                                <rect key="frame" x="16" y="147" width="48" height="21"/>
+                                <rect key="frame" x="16" y="171" width="48" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NYK-hI-dqT" userLabel="SenhaTF">
-                                <rect key="frame" x="16" y="176" width="343" height="30"/>
+                                <rect key="frame" x="16" y="200" width="343" height="30"/>
                                 <color key="textColor" red="0.83914172649999996" green="0.83926302190000002" blue="0.83911520240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wYV-mt-oHh">
-                                <rect key="frame" x="100" y="224" width="175" height="30"/>
+                                <rect key="frame" x="100" y="248" width="175" height="30"/>
                                 <color key="backgroundColor" red="0.2901960784" green="0.56862745100000001" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Entrar">
@@ -265,7 +313,7 @@
                     <connections>
                         <outlet property="email" destination="BhF-4c-5J9" id="aQK-OS-ezD"/>
                         <outlet property="senha" destination="NYK-hI-dqT" id="oAL-cx-6Re"/>
-                        <segue destination="Jd3-PO-XZG" kind="presentation" identifier="loginSegue" id="9Bv-6b-XMq"/>
+                        <segue destination="wly-Sj-10c" kind="presentation" identifier="loginSegue" id="9Bv-6b-XMq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="McN-RI-b3S" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -278,7 +326,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eDQ-pA-HZ8" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="NBt-0O-RgG">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -290,9 +338,28 @@
             </objects>
             <point key="canvasLocation" x="-486" y="-35"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="CVo-6u-kZJ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wly-Sj-10c" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7mX-a8-oaO">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Jd3-PO-XZG" kind="relationship" relationship="rootViewController" id="XCz-By-gtu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qgL-UX-ZWA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2828.8000000000002" y="-36.945812807881772"/>
+        </scene>
     </scenes>
     <resources>
         <image name="SimboloOpiniAquiPadrao.png" width="314" height="355"/>
+        <image name="padrao.png" width="500" height="446"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="bDF-My-axU"/>
